@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Clock JS</title>
+  </head>
+  <body class="bg-slate-900">
+    <div class="cotainer mx-auto px-4">
+      <p class="4xl text-center text-slate-50">
+        Clock with
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+      </p>
+      <div class="columns-auto">
+        <div class="clock">
+          <div class="clock-face">
+            <div class="hand hours-hand bg-slate-500"></div>
+            <div class="hand minutes-hand bg-slate-300"></div>
+            <div class="hand seconds-hand bg-red-600"></div>
+          </div>
+        </div>
+        <div class="digital-clock place-items-center">
+          <p
+            class="bg-neutral-950 4xl text-center text-slate-50 text-center digital-clock-value"
+          ></p>
+        </div>
+      </div>
+    </div>
+    <script src="clock.js"></script>
+  </body>
+</html>
