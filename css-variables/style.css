@@ -1,0 +1,13 @@
+:root {
+    --base: #2563eb;
+    --spacing: 10px;
+    --blur: 10px;
+    box-sizing: content-box;
+
+  }
+
+  img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
